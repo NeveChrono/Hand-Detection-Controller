@@ -1,5 +1,5 @@
 # Hand-Detection-Controller
-Developed a hand detection controller for Gazebo simulation, utilizing hand gestures to control robotic movements. The teleop_cv node detects gestures and publishes linear and angular velocity commands to the /cmd_vel topic. The turtlebot3_diff_drive node subscribes to this topic to drive the TurtleBot3 accordingly.
+This repo contains a zip file which is develop to be used as a hand detection controller for Gazebo simulation, utilizing hand gestures to control robotic movements. The teleop_cv node detects gestures and publishes linear and angular velocity commands to the /cmd_vel topic. The turtlebot3_diff_drive node subscribes to this topic to drive the TurtleBot3 accordingly.
 ## Deployment
 
 To deploy this project in your ROS enviroment.You have to build your workspace after transfering the package controller.

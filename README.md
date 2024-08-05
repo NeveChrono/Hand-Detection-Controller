@@ -18,7 +18,7 @@ Once that is done launch your own TurtleBot3 models which is an ROS package you 
 
 ```bash
 sudo apt update 
-sudo apt install ros-humble-turtlebot3 ros-humble-turtlebot3-simulations
+sudo apt install ros-humble-turtlebot3*
 ```
 
 This will create a bot that can is launched in a Gazebo simulation. Here is an example of one of launching on of the bots in the Gazebo simulation.
